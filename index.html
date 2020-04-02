@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QuoridorIA</title>
+        <link rel="stylesheet" href="game.css" />
+        <link rel="stylesheet" href="echo.css" type="text/css" media="screen" charset="utf-8">
+        <script charset="utf-8" src="echo.js"></script>
+    </head>
+    <body>
+        <!--Board grid-->
+        <div id="gamegrid">
+
+        </div>
+        <div id="players">
+            <div class="player" x-player="0">
+
+            </div>
+        </div>
+        <div id="dialogue">
+            <div id="input">
+                Au pion <span id="joeur_actuel"></span> de jouer:
+                <input type="text" id="player-input" />
+            </div>
+            <script src="game.js"></script>
+            <script src="test.js"></script>
+    
+        <!--WebSicket  input message-->
+        <div id="messages"></div>
+        <div id="message-panel">
+          <input id="input-message" type="text">
+          <button id="message-submit" type="button">Submit</button>
+        </div>
+        </div>
+    </body>
+</html>
